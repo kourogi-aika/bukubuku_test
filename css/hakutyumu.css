@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+ margin: 0;
+ padding: 0;
+}
+ 
+.anime {
+ max-height: 1080px;
+ position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: -2;
+}
+ 
+.anime img {
+ display: block;
+ position: absolute;
+ text-align: center;
+ z-index: 3;
+ 
+}
